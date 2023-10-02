@@ -29,9 +29,9 @@ public class Computadora {
         return "Computadora{" +
                 "idComputadora=" + idComputadora +
                 ", nombre='" + nombre + '\'' +
-                ", \nmonitor=" + monitor +
-                ", \nteclado=" + teclado +
-                ", \nraton=" + raton +
+                ", \n monitor=" + monitor +
+                ", \n teclado=" + teclado +
+                ", \n raton=" + raton +
                 '}';
     }
 }
