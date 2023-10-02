@@ -1,5 +1,6 @@
 package mundopc;
 
+import mundopc.modelo.Computadora;
 import mundopc.modelo.Monitor;
 import mundopc.modelo.Raton;
 import mundopc.modelo.Teclado;
@@ -17,6 +18,10 @@ public class Main {
 
         Monitor monitorLenovo = new Monitor("epson",27);
         System.out.println(monitorLenovo);
-        
+
+        //objeto de tipo computadora
+        Computadora computadoraLenovo =
+                new Computadora("Computadora Lenovo",monitorLenovo,tecladoLenovo,ratonLenovo);
+        System.out.println(computadoraLenovo);
         }
     }
